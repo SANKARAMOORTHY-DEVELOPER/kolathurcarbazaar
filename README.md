@@ -1,2 +1,3 @@
 # PROJECT-1
-![one](https://user-images.githubusercontent.com/78921146/125199772-69e3da00-e285-11eb-819d-f18de84de06a.jpg)
+![image](https://user-images.githubusercontent.com/78921146/125200444-d44a4980-e288-11eb-9e22-c6836f28c749.jpg)
+
