@@ -5,11 +5,6 @@
 <head>
 <body>
 
-<audio autoplay="" loop="" controls="" >
-<source src="Dior - Положение (Slowed and Bass boosted) Drive Forever.mp3" autostart="true" loop="true">
-Your browser
- does not support this awesome audio
-</audio>
     </body>
         <base >
         <link href="../fonts.googleapis.com/cssd5a5.css?family=Roboto:300,400,500,700,900" rel="stylesheet">
@@ -91,8 +86,17 @@ Your browser
 
                     <!-- User Profile Pic -->
                     <div class="profile-pic">
-                        <img src="../vcard-bucket.s3.us-east-2.amazonaws.com/A7/3373/1599481719022.jpeg" class="profile-pic-img">
-                    </div>
+                                                <script>
+                      function play(){
+                           var audio = document.getElementById("audio");
+                           audio.play();
+                                     }
+                       </script>
+
+                    <img src="../vcard-bucket.s3.us-east-2.amazonaws.com/A7/3373/1599481719022.jpeg" class="profile-pic-img" value="PLAY"  onclick="play()">
+                    <audio id="audio" src="Dior - Положение (Slowed and Bass boosted) Drive Forever.mp3" ></audio>
+                                        </div>
+
 
                     <!-- User Company Name -->
                     <h1 class="firmname">KOLATHUR CAR BAZAAR</h1>
