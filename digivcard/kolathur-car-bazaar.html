@@ -4,11 +4,29 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 <body>
-<audio id="HinaCC0_011_Fallen_leaves" loop> <source src="HinaCC0_011_Fallen_leaves.mp3"  type="audio/mp3"></audio>
+
+<iframe src="HinaCC0_011_Fallen_leaves.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+<button onclick="PlayStop()" type="button">Play</button>
+
+
+<audio id="HinaCC0_011_Fallen_leaves" autoplay loop> <source src="HinaCC0_011_Fallen_leaves.mp3"  type="audio/mp3"> 
+</audio>
 
 <script>
-var myaudio = document.getElementById("HinaCC0_011_Fallen_leaves").autoplay = true;
+var myaudio = document.getElementById("HinaCC0_011_Fallen_leaves");
+
+function button() { 
+if (elem.innerText=="Play") {
+    elem.innerText = "Stop";
+}
+else {
+    elem.innerText = "Play";
+}
+return myaudio.paused ? myaudio.play() : myaudio.pause();
+};
 </script>
+
     </body>
         <base >
         <link href="../fonts.googleapis.com/cssd5a5.css?family=Roboto:300,400,500,700,900" rel="stylesheet">
