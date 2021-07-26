@@ -10,7 +10,7 @@ var bleep =new Audio();
 bleep.src=bleep.mp3;
 </script>
 <body>
-
+<audio id="audio2" src="bleep.mp3" preload="auto"></audio>
     </body>
         <base >
         <link href="../fonts.googleapis.com/cssd5a5.css?family=Roboto:300,400,500,700,900" rel="stylesheet">
@@ -576,7 +576,7 @@ ADJ:INDIAN BANK
 
         <div class="copyright-wrapper">
                              
-                      © 2021 <a href="https://github.com/ONE-2-SIX" onmousedown="bleep.play()" target="_blank"><b>ONE2SIX.org</b></a>
+                      © 2021 <a href="https://github.com/ONE-2-SIX" onclick="documents.getElementById('audio2').play();" target="_blank"><b>ONE2SIX.org</b></a>
                   
       </div>
 
